@@ -13,6 +13,6 @@ public interface DepartmentRepository extends JpaRepository<Department, Long> {
 	//of thing 
 	//findBy and then the name of entity in camelcase
 	public Department findByDepartmentName(String departmentName);;
-	public Department findByDepartmentNameIgnorecase(String departmentName);
+	public Department findByDepartmentNameIgnoreCase(String departmentName);
 }
     
