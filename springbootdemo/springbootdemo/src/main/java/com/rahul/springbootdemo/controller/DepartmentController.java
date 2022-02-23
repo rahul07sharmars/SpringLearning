@@ -24,6 +24,8 @@ public class DepartmentController {
 	 
 	 private final Logger LOGGER=LoggerFactory.getLogger(DepartmentController.class); 
 	@PostMapping("/departments")
+	//requestbody is used to convert the data we are getting as JSON to your datatype
+	
 	public Department saveDepartment(@RequestBody Department department) {
 		
 //		DepartmentService departmentService = new DepartmentServiceImp();
